@@ -59,6 +59,6 @@ export async function getStaticPaths() {
                 params: { slug: post.postUrl }
             }
         )),
-        fallback: true,
+        fallback: false,
     }
 }
